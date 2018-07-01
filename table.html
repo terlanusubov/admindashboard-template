@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav-side.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="p-0" id="sideBar">
+        <!-- Side Bar Menu -->
+        <nav>
+            <!-- Logo Span -->
+            <span class="logo">
+                <span>Wg
+                    <span class="board">Board</span>
+                </span>
+            </span>
+            <!-- Search input -->
+            <section id="search">
+                <form action="">
+                    <div class="input-group mt-2 searchInput">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="input-group-btn searchButton">
+                            <!-- Search Button -->
+                            <button class="btn btn-default searchButton">
+                                <i class="fas fa-search searchIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Side Menu List -->
+
+            <ul class="mainList mt-1">
+                <!-- DashBoard -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-span">DashBoard</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="index.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Main Layout</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="online-shop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Online Shop</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="blog-dashboard.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Blog Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Ul elements -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">UI Elements</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="badges.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Badges</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="labels.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Labels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="list.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">List Groups</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pag.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="panel.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Panels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="bar.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Progress Bars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Components -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">Components</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="alert.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Alerts</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="tooltip.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Tooltips</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Popovers</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="modal.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Modals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-square"></i>
+                    <a href="button.html">
+                        <span class="nav-span">Buttons</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-list-ul"></i>
+                    <a href="form.html">
+                        <span class="nav-span">Forms</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-table"></i>
+                    <a href="table.html">
+                        <span class="nav-span">Tables</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-chart-bar"></i>
+                    <a href="chart.html">
+                        <span class="nav-span">Charts</span>
+                    </a>
+                    <span class="badge badge-danger badge-square">New</span>
+                </li>
+            </ul>
+
+            <!-- Text -->
+            <p class="sideText"></p>
+            <!-- Progress Bar -->
+
+            <section id="bar">
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Pending</p>
+                    <p class="percent">37%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="firstBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Approved</p>
+                    <p class="percent">60%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="secondBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Rejected</p>
+                    <p class="percent">3%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="thirdBar"></div>
+                </div>
+            </section>
+        </nav>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Main Container -->
+    <main id="mainContainer" class="show">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Header -->
+                <header class="navTop show">
+                    <div class="row">
+                        <!-- Navigation Left -->
+                        <div class="col-md-6  col-sm-6 col-6 navLeft">
+                            <ul class="d-flex m-0">
+                                <li>
+                                    <div class="icon">
+                                        <span class="hamburger p-0"></span>
+                                    </div>
+                                </li>
+                                <li class="d-flex navLeft-items">
+                                    <i class="material-icons createIcons">
+                                        insert_drive_file
+                                    </i>
+                                    <span>Create</span>
+                                    <i class="material-icons createIcons createDown">
+                                        arrow_drop_down
+                                    </i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Publication
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Project
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Task Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navLeft-items">
+                                    <i class="material-icons">
+                                        cloud_queue
+                                    </i>
+                                    <span>File explorer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Right Nav -->
+                        <div class="col-md-6 col-sm-6 col-6  d-flex justify-content-end navRight">
+                            <ul class="d-flex m-0">
+                                <li class="navRight-items">
+                                    <i class="far fa-bell"></i>
+                                    <span class="badge badge-danger">3</span>
+                                </li>
+                                <li class="dropDown dropdownBell">
+                                    <ul>
+                                        <li>
+                                            <span>Nofictions</span>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction1.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Phillip Sandoval</b> liked your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction2.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Mary Riley</b> delegated post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction3.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Debra Burton</b> commented on your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction4.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Nathan Nelson</b> followed you</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span>EN</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span class="name">Mary Riley</span>
+                                    <i class="fas fa-caret-down"></i>
+                                    <img src="images/profile.jpg" alt="">
+                                </li>
+                                <li class="dropDown dropDownImg">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <i class="far fa-user"></i>
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-tasks"></i>
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <!-- / Header -->
+
+                <!-- PAGE CONTEXT -->
+                <div class="main col-12 p-0">
+                    <!-- Mini Nav -->
+                    <nav class="miniNav col-lg-12">
+                        <ul class="d-flex m-0">
+                            <li class="miniNav-items">
+                                <i class="fas fa-home"></i>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items active">
+                                <a href="#">TABLES</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /Mini Nav -->
+
+                    <!-- Page Title -->
+                    <section id="pageTitle">
+                        <div class="col-lg-12 pt-4">
+                            <p class="pageTitle">Tabels</p>
+                            <p class="pageText">Use tables to display data</p>
+                        </div>
+                    </section>
+                    <!-- /Page Title -->
+
+                    <!-- Main Example -->
+                    <section id="example" class="col-lg-12">
+                        <span class="example badgeDesign">Example</span>
+                        <div class="row mx-1 my-4" style="background:#efefef;">
+                            <div class="col-7 mx-auto labelPage mainLabel" style="background: white;">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Name</th>
+                                            <th>Login</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mcneil, Burke Q.</td>
+                                            <td>
+                                                <span class="badge badge-primary">Emery_Mullen</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td> Burris, Lesley T.</td>
+                                            <td>
+                                                <span class="badge badge-secondary">Eleanor_Cole</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Sears, Drew G.</td>
+                                            <td>
+                                                <span class="badge badge-danger">Pandora_Bender</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Oconnor, Jocelyn A.</td>
+                                            <td>
+                                                <span class="badge badge-primary">Abdul_Logan</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Stewart, Anika M.</td>
+                                            <td>
+                                                <span class="badge badge-secondary">Eaton_Morris</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Main Example -->
+
+                    <!-- Example 2 -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Responsive table</h5>
+                                <p class="context">Add a horizontal scroll to the table to avoid shrinking the width of the columns.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 tablePage scroll">
+                                <div class="row mx-1 my-2 p-3 d-flex justify-content-center" style="background: #efefef;;">
+                                    <div class="col-8 mx-auto labelPage" style="background: white;">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped no-mb">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Login</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mcneil, Burke Q.</td>
+                                                        <td>ligula.Nullam.enim@consequatenim.com</td>
+                                                        <td>@Emery_Mullen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Burris, Lesley T.</td>
+                                                        <td>montes.nascetur@fringilla.co.uk</td>
+                                                        <td>@Eleanor_Cole</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Sears, Drew G.</td>
+                                                        <td>sem.mollis@eget.edu</td>
+                                                        <td>@Pandora_Bender</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oconnor, Jocelyn A.</td>
+                                                        <td>aptent.taciti.sociosqu@nullaDonec.net</td>
+                                                        <td>@Abdul_Logan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Stewart, Anika M.</td>
+                                                        <td>mollis.dui.in@pharetra.edu</td>
+                                                        <td>@Eaton_Morris</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Example /2 -->
+                    <!-- Example 3 -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Striped rows</h5>
+                                <p class="context">Strip the color of the rows in the table, added class
+                                    <code>.table-stripped</code>.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 tablePage scroll">
+                                <div class="row mx-1 my-2 p-3 d-flex justify-content-center" style="background: #efefef;;">
+                                    <div class="col-10 mx-auto labelPage" style="background: white;">
+                                        <div class="table-responsive" style="overflow: hidden;">
+                                            <table class="table table-striped no-mb">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Login</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mcneil, Burke Q.</td>
+                                                        <td>ligula.Nullam.enim@consequatenim.com</td>
+                                                        <td>@Emery_Mullen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Burris, Lesley T.</td>
+                                                        <td>montes.nascetur@fringilla.co.uk</td>
+                                                        <td>@Eleanor_Cole</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Sears, Drew G.</td>
+                                                        <td>sem.mollis@eget.edu</td>
+                                                        <td>@Pandora_Bender</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oconnor, Jocelyn A.</td>
+                                                        <td>aptent.taciti.sociosqu@nullaDonec.net</td>
+                                                        <td>@Abdul_Logan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Stewart, Anika M.</td>
+                                                        <td>mollis.dui.in@pharetra.edu</td>
+                                                        <td>@Eaton_Morris</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Example 3 -->
+
+                    <!-- Example 4 -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Bordered table</h5>
+                                <p class="context">Add borders to the table using class
+                                    <code>.table-bordered</code>.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 tablePage scroll">
+                                <div class="row mx-1 my-2 p-3 d-flex justify-content-center" style="background: #efefef;;">
+                                    <div class="col-10 mx-auto labelPage" style="background: white;">
+                                        <div class="table-responsive" style="overflow: hidden;">
+                                            <table class="table table-bordered no-mb">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Login</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mcneil, Burke Q.</td>
+                                                        <td>ligula.Nullam.enim@consequatenim.com</td>
+                                                        <td>@Emery_Mullen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Burris, Lesley T.</td>
+                                                        <td>montes.nascetur@fringilla.co.uk</td>
+                                                        <td>@Eleanor_Cole</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Sears, Drew G.</td>
+                                                        <td>sem.mollis@eget.edu</td>
+                                                        <td>@Pandora_Bender</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oconnor, Jocelyn A.</td>
+                                                        <td>aptent.taciti.sociosqu@nullaDonec.net</td>
+                                                        <td>@Abdul_Logan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Stewart, Anika M.</td>
+                                                        <td>mollis.dui.in@pharetra.edu</td>
+                                                        <td>@Eaton_Morris</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Example 4 -->
+
+
+                    <!-- Example 5 -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Hover rows</h5>
+                                <p class="context">Highlight the rows of the table when hovering with
+                                    <code>.table-hover</code>.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 tablePage scroll">
+                                <div class="row mx-1 my-2 p-3 d-flex justify-content-center" style="background: #efefef;;">
+                                    <div class="col-10 mx-auto labelPage" style="background: white;">
+                                        <div class="table-responsive" style="overflow: hidden;">
+                                            <table class="table table-hover no-mb">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Login</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mcneil, Burke Q.</td>
+                                                        <td>ligula.Nullam.enim@consequatenim.com</td>
+                                                        <td>@Emery_Mullen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Burris, Lesley T.</td>
+                                                        <td>montes.nascetur@fringilla.co.uk</td>
+                                                        <td>@Eleanor_Cole</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Sears, Drew G.</td>
+                                                        <td>sem.mollis@eget.edu</td>
+                                                        <td>@Pandora_Bender</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oconnor, Jocelyn A.</td>
+                                                        <td>aptent.taciti.sociosqu@nullaDonec.net</td>
+                                                        <td>@Abdul_Logan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Stewart, Anika M.</td>
+                                                        <td>mollis.dui.in@pharetra.edu</td>
+                                                        <td>@Eaton_Morris</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Example 5 -->
+
+                    <!-- Example 6 -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Condensed table</h5>
+                                <p class="context">Compress content with with
+                                    <code>.table-condensed</code>.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 tablePage scroll">
+                                <div class="row mx-1 my-2 p-3 d-flex justify-content-center" style="background: #efefef;;">
+                                    <div class="col-10 mx-auto labelPage" style="background: white;">
+                                        <div class="table-responsive" style="overflow: hidden;">
+                                            <table class="table table-sm no-mb">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Name</th>
+                                                        <th>Email</th>
+                                                        <th>Login</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mcneil, Burke Q.</td>
+                                                        <td>ligula.Nullam.enim@consequatenim.com</td>
+                                                        <td>@Emery_Mullen</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Burris, Lesley T.</td>
+                                                        <td>montes.nascetur@fringilla.co.uk</td>
+                                                        <td>@Eleanor_Cole</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Sears, Drew G.</td>
+                                                        <td>sem.mollis@eget.edu</td>
+                                                        <td>@Pandora_Bender</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Oconnor, Jocelyn A.</td>
+                                                        <td>aptent.taciti.sociosqu@nullaDonec.net</td>
+                                                        <td>@Abdul_Logan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Stewart, Anika M.</td>
+                                                        <td>mollis.dui.in@pharetra.edu</td>
+                                                        <td>@Eaton_Morris</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Example 6 -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="js/main.js " defer="defer "></script>
+</body>
+
+</html>

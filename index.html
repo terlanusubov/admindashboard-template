@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav-side.css">
+    <link href="plugins/calendar/dcalendar.picker.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="p-0" id="sideBar">
+        <!-- Side Bar Menu -->
+        <nav>
+            <!-- Logo Span -->
+            <span class="logo">
+                <span>Wg
+                    <span class="board">Board</span>
+                </span>
+            </span>
+            <!-- Search input -->
+            <section id="search">
+                <form action="">
+                    <div class="input-group mt-2 searchInput p-0">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="input-group-btn searchButton p-0">
+                            <!-- Search Button -->
+                            <button class="btn btn-default searchButton">
+                                <i class="fas fa-search searchIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Side Menu List -->
+
+            <ul class="mainList mt-1">
+                <!-- DashBoard -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-span">DashBoard</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="index.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Main Layout</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="online-shop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Online Shop</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="blog-dashboard.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Blog Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Ul elements -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">UI Elements</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="badges.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Badges</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="labels.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Labels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="list.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">List Groups</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pag.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="panel.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Panels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="bar.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Progress Bars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Components -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">Components</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="alert.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Alerts</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="tooltip.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Tooltips</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Popovers</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="modal.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Modals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-square"></i>
+                    <a href="button.html">
+                        <span class="nav-span">Buttons</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-list-ul"></i>
+                    <a href="form.html">
+                        <span class="nav-span">Forms</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-table"></i>
+                    <a href="table.html">
+                        <span class="nav-span">Tables</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-chart-bar"></i>
+                    <a href="chart.html">
+                        <span class="nav-span">Charts</span>
+                    </a>
+                    <span class="badge badge-danger badge-square">New</span>
+                </li>
+            </ul>
+
+            <!-- Text -->
+            <p class="sideText"></p>
+            <!-- Progress Bar -->
+
+            <section id="bar">
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Pending</p>
+                    <p class="percent">37%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="firstBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Approved</p>
+                    <p class="percent">60%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="secondBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Rejected</p>
+                    <p class="percent">3%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="thirdBar"></div>
+                </div>
+            </section>
+        </nav>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Main Container -->
+    <main id="mainContainer" class="show">
+        <div class="container-fluid">
+            <!-- <div class="row"> -->
+            <!-- Header -->
+            <header class="navTop show">
+                <div class="row">
+                    <!-- Navigation Left -->
+                    <div class="col-md-6  col-sm-6 col-6 navLeft">
+                        <ul class="d-flex m-0">
+                            <li>
+                                <div class="icon">
+                                    <span class="hamburger p-0"></span>
+                                </div>
+                            </li>
+                            <li class="d-flex navLeft-items">
+                                <i class="material-icons createIcons">
+                                    insert_drive_file
+                                </i>
+                                <span>Create</span>
+                                <i class="material-icons createIcons createDown">
+                                    arrow_drop_down
+                                </i>
+                            </li>
+                            <li class="dropDown">
+                                <ul>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            Publication
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            Project
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            Task Item
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navLeft-items">
+                                <i class="material-icons">
+                                    cloud_queue
+                                </i>
+                                <span>File explorer</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Right Nav -->
+                    <div class="col-md-6 col-sm-6 col-6  d-flex justify-content-end navRight">
+                        <ul class="d-flex m-0">
+                            <li class="navRight-items">
+                                <i class="far fa-bell"></i>
+                                <span class="badge badge-danger">3</span>
+                            </li>
+                            <li class="dropDown dropdownBell">
+                                <ul>
+                                    <li>
+                                        <span>Nofictions</span>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="images/notifiction1.jpg" alt="">
+                                            </div>
+                                            <div class="col-9 p-0">
+                                                <span>
+                                                    <b>Phillip Sandoval</b> liked your post</span>
+                                                <span class="circle"></span>
+                                                <p>2 minutes ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="images/notifiction2.jpg" alt="">
+                                            </div>
+                                            <div class="col-9 p-0">
+                                                <span>
+                                                    <b>Mary Riley</b> delegated post</span>
+                                                <span class="circle"></span>
+                                                <p>2 minutes ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="images/notifiction3.jpg" alt="">
+                                            </div>
+                                            <div class="col-9 p-0">
+                                                <span>
+                                                    <b>Debra Burton</b> commented on your post</span>
+                                                <span class="circle"></span>
+                                                <p>2 minutes ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="images/notifiction4.jpg" alt="">
+                                            </div>
+                                            <div class="col-9 p-0">
+                                                <span>
+                                                    <b>Nathan Nelson</b> followed you</span>
+                                                <span class="circle"></span>
+                                                <p>2 minutes ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navRight-items">
+                                <span>EN</span>
+                                <i class="fas fa-caret-down"></i>
+                            </li>
+                            <li class="dropDown">
+                                <ul>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            English
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            Deutsch
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <a href="#">
+                                            France
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navRight-items">
+                                <span class="name">Mary Riley</span>
+                                <i class="fas fa-caret-down"></i>
+                                <img src="images/profile.jpg" alt="">
+                            </li>
+                            <li class="dropDown dropDownImg">
+                                <ul>
+                                    <li class="drop-items">
+                                        <i class="far fa-user"></i>
+                                        <a href="#">
+                                            English
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <i class="fas fa-tasks"></i>
+                                        <a href="#">
+                                            Deutsch
+                                        </a>
+                                    </li>
+                                    <li class="drop-items">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <a href="#">
+                                            France
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- / Header -->
+
+            <!-- PAGE CONTEXT -->
+            <div class="main col-12 p-0">
+                <!-- Mini Nav -->
+                <nav class="miniNav col-lg-12">
+                    <ul class="d-flex m-0">
+                        <li class="miniNav-items">
+                            <i class="fas fa-home"></i>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li class="miniNav-items">
+                            <i class="fas fa-angle-right"></i>
+                        </li>
+                        <li class="miniNav-items">
+                            <a href="#">DASHBOARD</a>
+                        </li>
+                        <li class="miniNav-items">
+                            <i class="fas fa-angle-right"></i>
+                        </li>
+                        <li class="miniNav-items active">
+                            <a href="#">MAIN PAGE</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /Mini Nav -->
+
+                <!-- Page Title -->
+                <section id="pageTitle">
+                    <div class="col-lg-12 pt-4">
+                        <p class="pageTitle">Welcome Back Mary!</p>
+                        <p class="pageText">Get started with the control panel right now</p>
+                    </div>
+                </section>
+                <!-- /Page Title -->
+
+                <!-- Page Widgets -->
+                <section id="widget">
+                    <div class="col-lg-12 mt-5 p-0">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 pt-3 widgets post">
+                                <div class="row mx-1">
+                                    <div class="col-6">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </div>
+                                    <div class="col-6 p-0">
+                                        <p class="infoText">428</p>
+                                        <p class="infoName">New Posts</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 pt-3 widgets comment">
+                                <div class="row mx-1">
+                                    <div class="col-6">
+                                        <i class="far fa-comment-alt"></i>
+                                    </div>
+                                    <div class="col-6 p-0">
+                                        <p class="infoText">128</p>
+                                        <p class="infoName">New comments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 pt-3 widgets earning">
+                                <div class="row mx-1">
+                                    <div class="col-6">
+                                        <i class="fas fa-dollar-sign"></i>
+                                    </div>
+                                    <div class="col-6 p-0">
+                                        <p class="infoText">$ 4,870</p>
+                                        <p class="infoName">Earnings</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div></div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 pt-3 widgets client">
+                                <div class="row mx-1">
+                                    <div class="col-6">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                    <div class="col-6 p-0">
+                                        <p class="infoText">407</p>
+                                        <p class="infoName">New clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <!-- Section  Calendar and  Project Feed-->
+                            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 mt-5 p-0" id="calendar">
+                                <div class="row mr-2 ml-1" style="background-color:white;  height: 389px;">
+                                    <div class="col-lg-5">
+                                        <div class="col-lg-12 p-0">
+                                            <span class="date">19</span>
+                                            <span class="week">Friday</span>
+                                        </div>
+                                        <div class="col-lg-12 p-0">
+                                            <span class="month">May</span>
+                                            <span class="year">2018</span>
+                                        </div>
+                                        <div class="col-lg-12 p-0 jobs">
+                                            <ul class="mt-3">
+                                                <li>
+                                                    <span class="circle"></span>
+                                                    <span>Call to Mary</span>
+                                                </li>
+                                                <li>
+                                                    <span class="circle"></span>
+                                                    <span>Buy milk on the way home</span>
+                                                </li>
+                                                <li>
+                                                    <span class="circle"></span>
+                                                    <span>Finish current template</span>
+                                                </li>
+                                                <li>
+                                                    <span class="circle"></span>
+                                                    <span>Write documentation</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 p-0">
+                                        <div id="calendar-demo" style="width:100%"></div>
+                                    </div>
+                                    <div class="col-lg-12 seeTask">
+                                        <span>See all 17 tasks</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Section Feeds -->
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5 p-0" id="feed">
+                                <!-- Feeds -->
+                                <!-- Feed Title -->
+                                <div class="col-lg-12 feedHeading py-3 px-2">
+                                    <p>Project Feed</p>
+                                    <i class="fas fa-plus plus"></i>
+                                </div>
+                                <div class="wg col-lg-12 p-0">
+                                    <div class="col-lg-12 wg-context p-0">
+                                        <div class="col-lg-12 feeds py-3" style="border-left:1px solid #00bbd5; border-bottom:1px solid #eee;">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="images/feed1.jpg" alt="">
+                                                </div>
+                                                <div class="col-5">
+                                                    <p class="feedName">Mildred Perry</p>
+                                                    <span>Update:</span>
+                                                    <span class="badge badge-primary">CMS</span>
+                                                </div>
+                                                <div class="col-5"></div>
+                                            </div>
+                                            <div class="col-lg-12 projectFeedDropDown">
+                                                <div class="col-lg-12 dropHeading">
+                                                    <i class="far fa-copy"></i>
+                                                    <span>Updated file</span>
+                                                </div>
+                                                <div class="col-lg-12 fileList">
+                                                    <ul>
+                                                        <li>
+                                                            <span>_badges.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>_clearfix.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>main-font.woff</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="complete">Project completed in</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                        70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 feeds py-3" style="border-left:1px solid #00bbd5; border-bottom:1px solid #eee;">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="images/feed2.jpg" alt="">
+                                                </div>
+                                                <div class="col-5">
+                                                    <p class="feedName">Jason Fowler</p>
+                                                    <span>Update:</span>
+                                                    <span class="badge badge-info">Index page</span>
+                                                </div>
+                                                <div class="col-5"></div>
+                                            </div>
+                                            <div class="col-lg-12 projectFeedDropDown">
+                                                <div class="col-lg-12 dropHeading">
+                                                    <i class="far fa-copy"></i>
+                                                    <span>Updated file</span>
+                                                </div>
+                                                <div class="col-lg-12 fileList">
+                                                    <ul>
+                                                        <li>
+                                                            <span>_badges.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>_clearfix.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>main-font.woff</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="complete">Project completed in</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                        70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 feeds py-3" style="border-left:1px solid #13b42b; border-bottom:1px solid #eee;">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="images/feed3.jpg" alt="">
+                                                </div>
+                                                <div class="col-5">
+                                                    <p class="feedName">Marie Palmer</p>
+                                                    <span>Update:</span>
+                                                    <span class="badge badge-success">edit</span>
+                                                </div>
+                                                <div class="col-5"></div>
+                                            </div>
+                                            <div class="col-lg-12 projectFeedDropDown">
+                                                <div class="col-lg-12 dropHeading">
+                                                    <i class="far fa-copy"></i>
+                                                    <span>Updated file</span>
+                                                </div>
+                                                <div class="col-lg-12 fileList">
+                                                    <ul>
+                                                        <li>
+                                                            <span>_badges.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>_clearfix.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>main-font.woff</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="complete">Project completed in</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                        70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 feeds py-3" style="border-left:1px solid #e31e62; border-bottom:1px solid #eee;">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="images/feed4.jpg" alt="">
+                                                </div>
+                                                <div class="col-5">
+                                                    <p class="feedName">Theresa Jacobs</p>
+                                                    <span>Update:</span>
+                                                    <span class="badge badge-danger">users.php</span>
+                                                </div>
+                                                <div class="col-5"></div>
+                                            </div>
+                                            <div class="col-lg-12 projectFeedDropDown">
+                                                <div class="col-lg-12 dropHeading">
+                                                    <i class="far fa-copy"></i>
+                                                    <span>Updated file</span>
+                                                </div>
+                                                <div class="col-lg-12 fileList">
+                                                    <ul>
+                                                        <li>
+                                                            <span>_badges.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>_clearfix.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>main-font.woff</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="complete">Project completed in</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                        70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 feeds py-3" style="border-left:1px solid #00bbd5; border-bottom:1px solid #eee;">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="images/feed5.jpg" alt="">
+                                                </div>
+                                                <div class="col-5">
+                                                    <p class="feedName">Christine Miller</p>
+                                                    <span>Update:</span>
+                                                    <span class="badge badge-primary">edit</span>
+                                                </div>
+                                                <div class="col-5"></div>
+                                            </div>
+                                            <div class="col-lg-12 projectFeedDropDown">
+                                                <div class="col-lg-12 dropHeading">
+                                                    <i class="far fa-copy"></i>
+                                                    <span>Updated file</span>
+                                                </div>
+                                                <div class="col-lg-12 fileList">
+                                                    <ul>
+                                                        <li>
+                                                            <span>_badges.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>_clearfix.scss</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>main-font.woff</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="complete">Project completed in</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                        70%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Create Project -->
+                                <section class="col-lg-12" id="project">
+                                    <!-- Title -->
+                                    <div class="projectHeading col-lg-12 py-3 px-0">
+                                        <p>Create Project</p>
+                                        <i class="fas fa-times close"></i>
+                                    </div>
+                                    <!-- Project Name -->
+                                    <div class="projectName col-lg-12 px-0" style="border-bottom:1px solid #e7e7e7;">
+                                        <p class="title">PROJECT NAME</p>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <!-- ACtion -->
+                                    <div class="action col-lg-12 px-0 py-2" style="border-bottom:1px solid #e7e7e7;">
+                                        <p class="title">ACTION</p>
+                                        <select name="" id="action">
+                                            <option value="1">Create</option>
+                                            <option value="2">Update</option>
+                                            <option value="3">Remove</option>
+                                        </select>
+                                    </div>
+                                    <!-- Files -->
+                                    <div class="files col-lg-12 px-0 py-3" style="border-bottom: 1px solid #e7e7e7;">
+                                        <div class="col-lg-12 openFile">
+                                            <p class="title">FILES</p>
+                                            <i class="fas fa-angle-down down"></i>
+                                            <i class="fas fa-angle-up up"></i>
+                                        </div>
+                                        <div class="col-lg-12 filesDropDown my-1">
+                                            <input type="text" class="form-control" placeholder="Filename">
+                                            <span class="icon">
+                                                <i class="fas fa-plus"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- Color -->
+                                    <div class="color col-lg-12 px-0">
+                                        <p class="title">PROJECT COLOR</p>
+                                        <div class="colors col-lg-12">
+                                            <div style="background-color:#00bbd5;"></div>
+                                            <div style="background-color:#7863a0;"></div>
+                                            <div style="background-color:#13b42b;"></div>
+                                            <div style="background-color:#209ca9;"></div>
+                                            <div style="background-color:#ec531f;"></div>
+                                            <div style="background-color:#e31e62;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- percent range -->
+                                    <div class="range mt-2">
+                                        <input type="range" class="slider" min="1%" max="100%">
+                                        <p></p>
+                                    </div>
+                                </section>
+                                <!-- /Create Project -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Statics -->
+                <section id="statics" class="col-lg-12">
+                    <div class="row">
+                        <!-- Sales Statics -->
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 p-0 my-5">
+                            <div class="row mx-1">
+                                <!-- Title -->
+                                <div class="col-lg-12 heading py-2">
+                                    <p>Sales Statics</p>
+                                </div>
+                                <!-- content -->
+                                <div class="col-lg-12 time d-flex justify-content-center">
+                                    <span class="active" data-name="1"> By days</span>
+                                    <span data-name="2">By month</span>
+                                    <span data-name="3">By years</span>
+                                </div>
+                                <div class="col-lg-12 graphicImg p-0">
+                                    <img src="images/graphic1.png" alt="" class="active w-100 imgFirst img-responsive" data-adres="1">
+                                </div>
+                                <!-- Graphics -->
+                                <section class="col-lg-12 months">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#e31e62"></span>
+                                            <span class="monthName">January</span>
+
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#e31e62"></span>
+                                            <span class="monthName">February</span>
+
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#e31e62"></span>
+                                            <span class="monthName">March</span>
+
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#13b42b"></span>
+                                            <span class="monthName">April</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#13b42b"></span>
+                                            <span class="monthName">May</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="monthColor" style="background-color:#13b42b"></span>
+                                            <span class="monthName">June</span>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- Task List -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 taskMain p-0 my-5">
+                            <div class="row mx-1">
+                                <!-- Title -->
+                                <div class="col-lg-12 heading py-2">
+                                    <p>Task List</p>
+                                </div>
+                                <section id="tasks">
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #00bbd5">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Call to Mary</span>
+                                        <span class="badgeDesign" style="width: 50px;height: 20px;line-height: 20px;">today</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #00bbd5">
+                                        <input type="checkbox" class="checkbox" checked>
+                                        <span class="taskTitle">Buy milk on the way home</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #e31e62">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Finish the previous task</span>
+                                        <span class="badgeDesign" style="background-color: #e31e62;width: 80px;">important</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #00bbd5">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Finish current template</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #e31e62">
+                                        <input type="checkbox" class="checkbox" checked>
+                                        <span class="taskTitle">Write documentation</span>
+                                        <span class="badgeDesign" style="width: 50px;height: 20px;line-height: 20px;background-color:#13b42b">well</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #13b42b">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Make statistics block</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish approve">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove reject">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #00bbd5">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Add element to this list</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                    <div class="col-lg-12 taskItems" style="border-left:1.5px solid #00bbd5">
+                                        <input type="checkbox" class="checkbox">
+                                        <span class="taskTitle">Finish list</span>
+                                        <i class="fas fa-angle-down downIcon"></i>
+                                        <i class="fas fa-times closeIcon"></i>
+                                    </div>
+                                    <!-- dropdown -->
+                                    <div class="col-lg-12 dropTask">
+                                        <div class="col-lg-12">
+                                            <i class="fas fa-user"></i>
+                                            <span style="color:#888;display: block;">Created by:
+                                                <span style="color:#00bbd5">Valery</span>
+                                            </span>
+                                            <i class="far fa-clock"></i>
+                                            <span>09:27 PM</span>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <span class="button finish">
+                                                <i class="fas fa-check"></i>Finish</span>
+                                            <span class="button remove">
+                                                <i class="far fa-trash-alt"></i>Remove</span>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown -->
+                                </section>
+                            </div>
+                        </div>
+                        <!-- /task list -->
+
+                        <!-- Total Progress -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 my-5 p-0 totalProgress">
+                            <div class="row mx-1">
+                                <!-- Title -->
+                                <div class="col-lg-12 heading py-2">
+                                    <p>Total Progress</p>
+                                </div>
+                                <!-- content -->
+                                <div class="col-lg-12 progressContent d-flex justify-content-center py-5">
+                                    <div class="widgetCircle">
+                                        <p>79</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 progressText">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                        suffered alteration.</p>
+                                </div>
+                                <div class="col-lg-12 progressInfo py-2">
+                                    <div class="row p-0" style=" background-color:rgb(31, 30, 30);">
+                                        <div class=" col-4">
+                                            <p>Total</p>
+                                            <span>100</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <p>Approved</p>
+                                            <span>100</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <p>Rejected</p>
+                                            <span>21</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Recent Comments  and Recent Activity-->
+                <section id="recent" class="col-lg-12 mt-4">
+                    <div class="row">
+                        <div class="col-lg-8 mt-3 p-0">
+                            <div class="row mr-2 ml-1" style="background-color:white;">
+                                <div class="col-lg-12 heading py-2">
+                                    <p style="margin:0px;">Recent Comments</p>
+                                </div>
+                                <div class="col-lg-12 pt-5">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <img src="images/comment1.jpg" alt="">
+                                        </div>
+                                        <div class="col-11">
+                                            <div class="col-lg-12 heading">
+                                                <p>Laura Cole</p>
+                                                <span>2 days ago at 11:27 PM</span>
+                                                <span class="badgeDesign" style="width: 80px;height: 25px;line-height: 25px;background: #7863a0;">Pending</span>
+                                                <p style="font-weight: normal;" class="pt-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                                    roots in a piece of classical Latin literature from 45 BC, making it
+                                                    over 2000 years old. Richard McClintock.</p>
+                                            </div>
+                                            <div class="col-lg-12 py-3">
+                                                <span class="button finish approve">
+                                                    <i class="fas fa-check"></i>Approve</span>
+                                                <span class="button remove reject">
+                                                    <i class="far fa-trash-alt"></i>Reject</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row py-4">
+                                        <div class="col-1">
+                                            <img src="images/feed4.jpg" alt="">
+                                        </div>
+                                        <div class="col-11">
+                                            <div class="col-lg-12 heading">
+                                                <p>Crystal Burton</p>
+                                                <span>2 days ago at 11:27 PM</span>
+                                                <span class="badgeDesign" style="width: 80px;height: 25px;line-height: 25px;background: #7863a0;">Pending</span>
+                                                <p style="font-weight: normal;" class="pt-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                                    roots in a piece of classical Latin literature from 45 BC, making it
+                                                    over 2000 years old. Richard McClintock.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 recentActivty mt-3">
+                            <div class="row" style="background: white">
+                                <div class="heading col-lg-12 py-2">
+                                    <p>Recent Activity</p>
+                                </div>
+                                <section class="col-lg-12" style="background: white">
+                                    <ul>
+                                        <li style="border-color:#00bbd5">
+                                            <span class="circleColor" style="border-color:#00bbd5"></span>
+                                            <span class="activity">3 minutes ago</span>
+                                            <br>
+                                            <p>
+                                                <span style="color:#00bbd5;">Valery</span> is now following you</p>
+                                        </li>
+                                        <li style="border-color:#13b42b">
+                                            <span class="circleColor" style="border-color:#13b42b"></span>
+                                            <span class="activity">12 minutes ago</span>
+                                            <br>
+                                            <p>
+                                                The CS has been successfully updated.</p>
+                                        </li>
+                                        <li style="border-color:#00bbd5">
+                                            <span class="circleColor" style="border-color:#00bbd5"></span>
+                                            <span class="activity">Thu, 18 Jan 09:27 PM</span>
+                                            <br>
+                                            <p>
+                                                <span style="color:#00bbd5;">Article X</span> was successfully edited.</p>
+                                        </li>
+                                        <li style="border-color:#e31e62">
+                                            <span class="circleColor" style="border-color:#e31e62"></span>
+                                            <span class="activity">Wed, 17 Jan 01:12 AM</span>
+                                            <br>
+                                            <p>
+                                                On the main disk runs out of space.</p>
+                                        </li>
+                                        <li style="border-color:#00bbd5">
+                                            <span class="circleColor" style="border-color:#00bbd5"></span>
+                                            <span class="activity">Sun, 14 Jan 07:32 PM</span>
+                                            <br>
+                                            <p>
+                                                <span style="color:#00bbd5;">Valery</span> is now following you</p>
+                                        </li>
+                                        <li style="border-color:#7863a0">
+                                            <span class="circleColor" style="border-color:#7863a0"></span>
+                                            <span class="activity">3 minutes ago</span>
+                                            <br>
+                                            <p>
+                                                <span style="color:#00bbd5;">Ashley </span> is logged in.</p>
+                                        </li>
+                                        <li style="border-color:#00bbd5">
+                                            <span class="circleColor" style="border-color:#00bbd5"></span>
+                                            <span class="activity">Wed, 10 Jan 12:00 PM</span>
+                                            <br>
+                                            <p>
+                                                Transfer in the amount of $1.27k.</p>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- </div> -->
+        </div>
+    </main>
+    <div class="clearfix "></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="plugins/calendar/dcalendar.picker.js"></script>
+    <script src="js/main.js " defer="defer "></script>
+    <script>
+        $('#calendar-demo').dcalendar();
+    </script>
+</body>
+
+</html>

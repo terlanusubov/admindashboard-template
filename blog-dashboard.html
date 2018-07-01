@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav-side.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="p-0" id="sideBar">
+        <!-- Side Bar Menu -->
+        <nav>
+            <!-- Logo Span -->
+            <span class="logo">
+                <span>Wg
+                    <span class="board">Board</span>
+                </span>
+            </span>
+            <!-- Search input -->
+            <section id="search">
+                <form action="">
+                    <div class="input-group mt-2 searchInput">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="input-group-btn searchButton">
+                            <!-- Search Button -->
+                            <button class="btn btn-default searchButton">
+                                <i class="fas fa-search searchIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Side Menu List -->
+
+            <ul class="mainList mt-1">
+                <!-- DashBoard -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-span">DashBoard</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="index.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Main Layout</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="online-shop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Online Shop</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="blog-dashboard.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Blog Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Ul elements -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">UI Elements</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="badges.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Badges</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="labels.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Labels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="list.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">List Groups</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pag.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="panel.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Panels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="bar.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Progress Bars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Components -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">Components</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="alert.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Alerts</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="tooltip.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Tooltips</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Popovers</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="modal.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Modals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-square"></i>
+                    <a href="button.html">
+                        <span class="nav-span">Buttons</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-list-ul"></i>
+                    <a href="form.html">
+                        <span class="nav-span">Forms</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-table"></i>
+                    <a href="table.html">
+                        <span class="nav-span">Tables</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-chart-bar"></i>
+                    <a href="chart.html">
+                        <span class="nav-span">Charts</span>
+                    </a>
+                    <span class="badge badge-danger badge-square">New</span>
+                </li>
+            </ul>
+
+            <!-- Text -->
+            <p class="sideText"></p>
+            <!-- Progress Bar -->
+
+            <section id="bar">
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Pending</p>
+                    <p class="percent">37%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="firstBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Approved</p>
+                    <p class="percent">60%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="secondBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Rejected</p>
+                    <p class="percent">3%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="thirdBar"></div>
+                </div>
+            </section>
+        </nav>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Main Container -->
+    <main id="mainContainer" class="show">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Header -->
+                <header class="navTop show">
+                    <div class="row">
+                        <!-- Navigation Left -->
+                        <div class="col-md-6  col-sm-6 col-6 navLeft">
+                            <ul class="d-flex m-0">
+                                <li>
+                                    <div class="icon">
+                                        <span class="hamburger p-0"></span>
+                                    </div>
+                                </li>
+                                <li class="d-flex navLeft-items">
+                                    <i class="material-icons createIcons">
+                                        insert_drive_file
+                                    </i>
+                                    <span>Create</span>
+                                    <i class="material-icons createIcons createDown">
+                                        arrow_drop_down
+                                    </i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Publication
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Project
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Task Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navLeft-items">
+                                    <i class="material-icons">
+                                        cloud_queue
+                                    </i>
+                                    <span>File explorer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Right Nav -->
+                        <div class="col-md-6 col-sm-6 col-6  d-flex justify-content-end navRight">
+                            <ul class="d-flex m-0">
+                                <li class="navRight-items">
+                                    <i class="far fa-bell"></i>
+                                    <span class="badge badge-danger">3</span>
+                                </li>
+                                <li class="dropDown dropdownBell">
+                                    <ul>
+                                        <li>
+                                            <span>Nofictions</span>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction1.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Phillip Sandoval</b> liked your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction2.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Mary Riley</b> delegated post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction3.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Debra Burton</b> commented on your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction4.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Nathan Nelson</b> followed you</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span>EN</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span class="name">Mary Riley</span>
+                                    <i class="fas fa-caret-down"></i>
+                                    <img src="images/profile.jpg" alt="">
+                                </li>
+                                <li class="dropDown dropDownImg">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <i class="far fa-user"></i>
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-tasks"></i>
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <!-- / Header -->
+
+                <!-- PAGE CONTEXT -->
+                <div class="main col-12 p-0">
+                    <!-- Mini Nav -->
+                    <nav class="miniNav col-lg-12">
+                        <ul class="d-flex m-0">
+                            <li class="miniNav-items">
+                                <i class="fas fa-home"></i>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items">
+                                <a href="#">DASHBOARD</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items active">
+                                <a href="#">MAIN PAGE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /Mini Nav -->
+
+                    <!-- Page Title -->
+                    <section id="pageTitle">
+                        <div class="col-lg-12 pt-4">
+                            <p class="pageTitle">Welcome Back Mary!</p>
+                            <p class="pageText">Get started with the control panel right now</p>
+                        </div>
+                    </section>
+                    <!-- /Page Title -->
+
+                    <!-- Percents Progress Bar -->
+                    <section class="col-lg-12 my-4" id="percentProgress">
+                        <div class="row">
+                            <!-- First Bar -->
+                            <div class="col-lg-3 my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="col-lg-12 tileOfProgress py-3">
+                                        <span>Visits</span>
+                                        <p>2,3278</p>
+                                    </div>
+                                    <div class="col-lg-12 d-flex justify-content-center firstCircle">
+                                        <div class="circleProgress">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 values">
+                                        <span>Orders</span>
+                                        <p>
+                                            <i class="fas fa-arrow-up"></i>498</p>
+                                    </div>
+                                    <div class="col-lg-6 values">
+                                        <span>Sales</span>
+                                        <p>
+                                            <i class="fas fa-arrow-up"></i>388</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Bar -->
+                            <div class="col-lg-3 my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="col-lg-12 tileOfProgress py-3">
+                                        <span>Purchases</span>
+                                        <p>$ 4,872</p>
+                                    </div>
+                                    <div class="col-lg-12 d-flex justify-content-center secondCircle">
+                                        <div class="circleProgress">
+                                            <div class="cover">
+                                                <i class="far fa-credit-card"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 values">
+                                        <span>Returns</span>
+                                        <p>
+                                            <i class="fas fa-arrow-down"></i>24%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Third Bar -->
+                            <div class="col-lg-3 my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="col-lg-12 tileOfProgress py-3">
+                                        <span>New users</span>
+                                        <p>2,327</p>
+                                    </div>
+                                    <div class="col-lg-12 d-flex justify-content-center thirdCircle">
+                                        <div class="circleProgress">
+                                            <div class="cover">
+                                                <i class="far fa-user"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 values">
+                                        <span>Active costumers</span>
+                                        <p>
+                                            <i class="fas fa-arrow-up"></i>388</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Forth Bar -->
+                            <div class="col-lg-3 my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="col-lg-12 tileOfProgress py-3">
+                                        <span>New posts</span>
+                                        <p>478</p>
+                                    </div>
+                                    <div class="col-lg-12 d-flex justify-content-center forthCircle">
+                                        <div class="circleProgress">
+                                            <div class="cover">
+                                                <i class="fas fa-th-large"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 values">
+                                        <span>Approved</span>
+                                        <p>
+                                            <i class="fas fa-arrow-up"></i>1%</p>
+                                    </div>
+                                    <div class="col-lg-6 values">
+                                        <span>Rejected</span>
+                                        <p>
+                                            <i class="fas fa-arrow-down"></i>24%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Site Visits Statics and User Lists -->
+                    <section id="user" class="col-lg-12 my-4">
+                        <div class="row">
+
+                            <!-- Site Visit -->
+                            <div class="col-lg-8 siteVisit my-2">
+                                <div class="row mx-1" style="background: white;height: 400px;">
+                                    <div id="blogBar" style="height: 400px; width: 100%;"></div>
+                                </div>
+                            </div>
+                            <!-- User List -->
+                            <div class="col-lg-4 userList my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="heading py-2 col-lg-12">
+                                        <p>Users list</p>
+                                        <input type="text" class="form-control" placeholder="Search..">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <div class="col-lg-12 my-3 userContent">
+                                        <!-- user 1 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user1.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 2 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user2.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 3 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user3.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 4 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user4.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 5 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user5.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 6 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user6.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 7 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user7.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 8 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user8.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- usr 9 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user9.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 10 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user10.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 11 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user11.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                        <!-- user 12 -->
+                                        <div class="row my-4">
+                                            <div class="col-2">
+                                                <img src="images/user12.jpg" alt="">
+                                            </div>
+                                            <div class="col-10 px-4">
+                                                <p>Frances Brown</p>
+                                                <span>Web Designer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Traffic Sources Statics And Activity -->
+                    <section id="graphicPart" class="col-lg-12 my-4">
+                        <div class="row">
+                            <!-- Traffic Sources -->
+                            <div class="col-lg-4 my-2">
+                                <div class="row mx-1" style="background: white;height: 400px;">
+                                    <div class="col-lg-12 heading py-2">
+                                        <p>Traffic sources</p>
+                                    </div>
+                                    <div id="blogPie" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                            <!-- Sales Statistics -->
+                            <div class="col-lg-4 salesStatistics my-2">
+                                <div class="row mx-1" style="background: white;">
+                                    <div class="col-lg-12 heading py-2">
+                                        <p>Sales statistics</p>
+                                    </div>
+                                    <div class="col-lg-12 d-flex justify-content-center py-5">
+                                        <i class="far fa-user"></i>
+                                    </div>
+
+                                    <section class="col-lg-12 py-3">
+                                        <div class="col-lg-12 progressInfo mb-2">
+                                            <p class="m-0">less than 18</p>
+                                            <p class="percent">2%</p>
+                                        </div>
+                                        <div class="col-lg-10 mx-auto">
+                                            <div class="firstBar"></div>
+                                        </div>
+                                        <div class="col-lg-12 progressInfo mb-2">
+                                            <p class="m-0">18-24</p>
+                                            <p class="percent">34.7%</p>
+                                        </div>
+                                        <div class="col-lg-10 mx-auto">
+                                            <div class="secondBar"></div>
+                                        </div>
+                                        <div class="col-lg-12 progressInfo mb-2">
+                                            <p class="m-0">25-34</p>
+                                            <p class="percent">33.1%</p>
+                                        </div>
+                                        <div class="col-lg-10 mx-auto">
+                                            <div class="thirdBar"></div>
+                                        </div>
+                                        <div class="col-lg-12 progressInfo mb-2">
+                                            <p class="m-0">more than 35</p>
+                                            <p class="percent">30.2%</p>
+                                        </div>
+                                        <div class="col-lg-10 mx-auto">
+                                            <div class="forthBar"></div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <!-- Recent Activity -->
+                            <div class="col-lg-4 recentActivty my-2">
+                                <div class="row mx-1" style="background: white">
+                                    <div class="heading col-lg-12 py-2">
+                                        <p>Recent Activity</p>
+                                    </div>
+                                    <section class="col-lg-12 " style="background: white">
+                                        <ul>
+                                            <li style="border-color:#00bbd5">
+                                                <span class="circleColor" style="border-color:#00bbd5"></span>
+                                                <span class="activity">3 minutes ago</span>
+                                                <br>
+                                                <p>
+                                                    <span style="color:#00bbd5;">Valery</span> is now following you</p>
+                                            </li>
+                                            <li style="border-color:#13b42b">
+                                                <span class="circleColor" style="border-color:#13b42b"></span>
+                                                <span class="activity">12 minutes ago</span>
+                                                <br>
+                                                <p>
+                                                    The CS has been successfully updated.</p>
+                                            </li>
+                                            <li style="border-color:#00bbd5">
+                                                <span class="circleColor" style="border-color:#00bbd5"></span>
+                                                <span class="activity">Thu, 18 Jan 09:27 PM</span>
+                                                <br>
+                                                <p>
+                                                    <span style="color:#00bbd5;">Article X</span> was successfully edited.</p>
+                                            </li>
+                                            <li style="border-color:#e31e62">
+                                                <span class="circleColor" style="border-color:#e31e62"></span>
+                                                <span class="activity">Wed, 17 Jan 01:12 AM</span>
+                                                <br>
+                                                <p>
+                                                    On the main disk runs out of space.</p>
+                                            </li>
+                                            <li style="border-color:#00bbd5">
+                                                <span class="circleColor" style="border-color:#00bbd5"></span>
+                                                <span class="activity">Sun, 14 Jan 07:32 PM</span>
+                                                <br>
+                                                <p>
+                                                    <span style="color:#00bbd5;">Valery</span> is now following you</p>
+                                            </li>
+                                            <li style="border-color:#7863a0">
+                                                <span class="circleColor" style="border-color:#7863a0"></span>
+                                                <span class="activity">3 minutes ago</span>
+                                                <br>
+                                                <p>
+                                                    <span style="color:#00bbd5;">Ashley </span> is logged in.</p>
+                                            </li>
+                                            <li style="border-color:#00bbd5">
+                                                <span class="circleColor" style="border-color:#00bbd5"></span>
+                                                <span class="activity">Wed, 10 Jan 12:00 PM</span>
+                                                <br>
+                                                <p>
+                                                    Transfer in the amount of $1.27k.</p>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="js/main.js " defer="defer "></script>
+        <script>
+            window.onload = function () {
+
+                var blogBar = new CanvasJS.Chart("blogBar", {
+                    animationEnabled: true,
+                    exportEnabled: true,
+                    theme: "light1", // "light1", "light2", "dark1", "dark2"
+                    title: {
+                        text: "Simple Column Chart with Index Labels"
+                    },
+                    data: [{
+                        type: "column", //change type to bar, line, area, pie, etc
+                        //indexLabel: "{y}", //Shows y value on all Data Points
+                        indexLabelFontColor: "#5A5757",
+                        indexLabelPlacement: "outside",
+                        dataPoints: [
+                            { x: 10, y: 71 },
+                            { x: 20, y: 55 },
+                            { x: 30, y: 50 },
+                            { x: 40, y: 65 },
+                            { x: 50, y: 92, indexLabel: "Highest" },
+                            { x: 60, y: 68 },
+                            { x: 70, y: 38 },
+                            { x: 80, y: 71 },
+                            { x: 90, y: 54 },
+                            { x: 100, y: 60 },
+                            { x: 110, y: 36 },
+                            { x: 120, y: 49 },
+                            { x: 130, y: 21, indexLabel: "Lowest" }
+                        ]
+                    }]
+                });
+                blogBar.render();
+
+                // Pie Chart
+
+                var blogPie = new CanvasJS.Chart("blogPie", {
+                    animationEnabled: true,
+                    title: {
+                        text: "Email Categories",
+                        horizontalAlign: "left"
+                    },
+                    data: [{
+                        type: "doughnut",
+                        startAngle: 60,
+                        //innerRadius: 60,
+                        indexLabelFontSize: 17,
+                        indexLabel: "{label} - #percent%",
+                        toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                        dataPoints: [
+                            { y: 67, label: "Inbox" },
+                            { y: 28, label: "Archives" },
+                            { y: 10, label: "Labels" },
+                            { y: 7, label: "Drafts" },
+                            { y: 15, label: "Trash" },
+                            { y: 6, label: "Spam" }
+                        ]
+                    }]
+                });
+                blogPie.render();
+            }
+        </script>
+</body>
+
+</html>

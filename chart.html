@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav-side.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="p-0" id="sideBar">
+        <!-- Side Bar Menu -->
+        <nav>
+            <!-- Logo Span -->
+            <span class="logo">
+                <span>Wg
+                    <span class="board">Board</span>
+                </span>
+            </span>
+            <!-- Search input -->
+            <section id="search">
+                <form action="">
+                    <div class="input-group mt-2 searchInput">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="input-group-btn searchButton">
+                            <!-- Search Button -->
+                            <button class="btn btn-default searchButton">
+                                <i class="fas fa-search searchIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Side Menu List -->
+
+            <ul class="mainList mt-1">
+                <!-- DashBoard -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-span">DashBoard</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="index.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Main Layout</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="online-shop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Online Shop</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="blog-dashboard.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Blog Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Ul elements -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">UI Elements</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="badges.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Badges</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="labels.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Labels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="list.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">List Groups</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pag.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="panel.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Panels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="bar.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Progress Bars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Components -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">Components</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="alert.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Alerts</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="tooltip.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Tooltips</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Popovers</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="modal.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Modals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-square"></i>
+                    <a href="button.html">
+                        <span class="nav-span">Buttons</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-list-ul"></i>
+                    <a href="form.html">
+                        <span class="nav-span">Forms</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-table"></i>
+                    <a href="table.html">
+                        <span class="nav-span">Tables</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-chart-bar"></i>
+                    <a href="chart.html">
+                        <span class="nav-span">Charts</span>
+                    </a>
+                    <span class="badge badge-danger badge-square">New</span>
+                </li>
+            </ul>
+
+            <!-- Text -->
+            <p class="sideText"></p>
+            <!-- Progress Bar -->
+
+            <section id="bar">
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Pending</p>
+                    <p class="percent">37%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="firstBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Approved</p>
+                    <p class="percent">60%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="secondBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Rejected</p>
+                    <p class="percent">3%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="thirdBar"></div>
+                </div>
+            </section>
+        </nav>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Main Container -->
+    <main id="mainContainer" class="show">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Header -->
+                <header class="navTop show">
+                    <div class="row">
+                        <!-- Navigation Left -->
+                        <div class="col-md-6  col-sm-6 col-6 navLeft">
+                            <ul class="d-flex m-0">
+                                <li>
+                                    <div class="icon">
+                                        <span class="hamburger p-0"></span>
+                                    </div>
+                                </li>
+                                <li class="d-flex navLeft-items">
+                                    <i class="material-icons createIcons">
+                                        insert_drive_file
+                                    </i>
+                                    <span>Create</span>
+                                    <i class="material-icons createIcons createDown">
+                                        arrow_drop_down
+                                    </i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Publication
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Project
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Task Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navLeft-items">
+                                    <i class="material-icons">
+                                        cloud_queue
+                                    </i>
+                                    <span>File explorer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Right Nav -->
+                        <div class="col-md-6 col-sm-6 col-6  d-flex justify-content-end navRight">
+                            <ul class="d-flex m-0">
+                                <li class="navRight-items">
+                                    <i class="far fa-bell"></i>
+                                    <span class="badge badge-danger">3</span>
+                                </li>
+                                <li class="dropDown dropdownBell">
+                                    <ul>
+                                        <li>
+                                            <span>Nofictions</span>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction1.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Phillip Sandoval</b> liked your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction2.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Mary Riley</b> delegated post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction3.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Debra Burton</b> commented on your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction4.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Nathan Nelson</b> followed you</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span>EN</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span class="name">Mary Riley</span>
+                                    <i class="fas fa-caret-down"></i>
+                                    <img src="images/profile.jpg" alt="">
+                                </li>
+                                <li class="dropDown dropDownImg">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <i class="far fa-user"></i>
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-tasks"></i>
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <!-- / Header -->
+
+                <!-- PAGE CONTEXT -->
+                <div class="main col-12 p-0">
+                    <!-- Mini Nav -->
+                    <nav class="miniNav col-lg-12">
+                        <ul class="d-flex m-0">
+                            <li class="miniNav-items">
+                                <i class="fas fa-home"></i>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items">
+                                <a href="#">DASHBOARD</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items active">
+                                <a href="#">CHARTS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /Mini Nav -->
+
+                    <!-- Page Title -->
+                    <section id="pageTitle">
+                        <div class="col-lg-12 pt-4">
+                            <p class="pageTitle">Charts</p>
+                            <p class="pageText">Chart.js - simple yet flexible JavaScript charting for designers & developers.</p>
+                        </div>
+                    </section>
+                    <!-- /Page Title -->
+
+                    <!-- Example main Chart -->
+                    <section id="example" class="col-lg-12">
+                        <span class="example badgeDesign">Example</span>
+                        <div class="row mx-1 my-4" style="background:#efefef;">
+                            <div class="col-7 mx-auto labelPage mainLabel" style="background: white;">
+                                <div id="mainChart" style="height: 300px; width: 100%;"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- /Example -->
+
+                    <!-- Line Chart-->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Line chart</h5>
+                                <p class="context">A line chart is a way of plotting data points on a line. Often, it is used to show trend
+                                    data, or the comparison of two data sets</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 labelPage table">
+                                <div class="row mx-1 my-2 p-3" style="background: white;">
+                                    <div id="lineChart" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Line Chart -->
+
+                    <!-- Bar Chart-->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Bar chart</h5>
+                                <p class="context">A bar chart provides a way of showing data values represented as vertical bars. It is sometimes
+                                    used to show trend data, and the comparison of multiple data sets side by side.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 labelPage table">
+                                <div class="row mx-1 my-2 p-3" style="background: white;">
+                                    <div id="barChart" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Bar Chart -->
+
+                    <!-- Radar Chart-->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Radar chart</h5>
+                                <p class="context">A radar chart is a way of showing multiple data points and the variation between them. They
+                                    are often useful for comparing the points of two or more different data sets.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 labelPage table">
+                                <div class="row mx-1 my-2 p-3" style="background: white;">
+                                    <div id="radarChart" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Radar Chart -->
+
+                    <!-- Polar area-->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Polar area</h5>
+                                <p class="context">A radar chart is a way of showing multiple data points and the variation between them. They
+                                    are often useful for comparing the points of two or more different data sets.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 labelPage table">
+                                <div class="row mx-1 my-2 p-3" style="background: white;">
+                                    <div id="polarChart" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Polar area -->
+
+
+                    <!-- Doughnut & Pie chart -->
+                    <section id="example" class="col-lg-12">
+                        <div class="row mx-1 p-0">
+                            <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+                                <h5>Doughnut & Pie chart</h5>
+                                <p class="context">Pie and doughnut charts are probably the most commonly used charts. They are divided into
+                                    segments, the arc of each segment shows the proportional value of each piece of data.</p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 my-3 labelPage table">
+                                <div class="row mx-1 my-2 p-3" style="background: white;">
+                                    <div id="pieChart" style="height: 300px; width: 100%;"></div>
+                                    <div id="dognuntChart" style="height: 300px; width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Doughnut & Pie chart -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        window.onload = function () {
+            // Mainn Chart
+            var mainChart = new CanvasJS.Chart("mainChart", {
+                exportEnabled: true,
+                animationEnabled: true,
+                title: {
+                    text: "State Operating Funds"
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: explodePie
+                },
+                data: [{
+                    type: "pie",
+                    showInLegend: true,
+                    toolTipContent: "{name}: <strong>{y}%</strong>",
+                    indexLabel: "{name} - {y}%",
+                    dataPoints: [
+                        { y: 26, name: "School Aid", exploded: true },
+                        { y: 20, name: "Medical Aid" },
+                        { y: 5, name: "Debt/Capital" },
+                        { y: 3, name: "Elected Officials" },
+                        { y: 7, name: "University" },
+                        { y: 17, name: "Executive" },
+                        { y: 22, name: "Other Local Assistance" }
+                    ]
+                }]
+            });
+            mainChart.render();
+
+
+            function explodePie(e) {
+                if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                    e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+                } else {
+                    e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+                }
+                e.mainChart.render();
+
+            }
+
+            // Bar Chart
+            var barChart = new CanvasJS.Chart("barChart", {
+                animationEnabled: true,
+                theme: "light2",
+                title: {
+                    text: "Site Traffic"
+                },
+                axisX: {
+                    valueFormatString: "DD MMM",
+                    crosshair: {
+                        enabled: true,
+                        snapToDataPoint: true
+                    }
+                },
+                axisY: {
+                    title: "Number of Visits",
+                    crosshair: {
+                        enabled: true
+                    }
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    cursor: "pointer",
+                    verticalAlign: "bottom",
+                    horizontalAlign: "left",
+                    dockInsidePlotArea: true,
+                    itemclick: toogleDataSeries
+                },
+                data: [{
+                    type: "line",
+                    showInLegend: true,
+                    name: "Total Visit",
+                    markerType: "square",
+                    xValueFormatString: "DD MMM, YYYY",
+                    color: "#F08080",
+                    dataPoints: [
+                        { x: new Date(2017, 0, 3), y: 650 },
+                        { x: new Date(2017, 0, 4), y: 700 },
+                        { x: new Date(2017, 0, 5), y: 710 },
+                        { x: new Date(2017, 0, 6), y: 658 },
+                        { x: new Date(2017, 0, 7), y: 734 },
+                        { x: new Date(2017, 0, 8), y: 963 },
+                        { x: new Date(2017, 0, 9), y: 847 },
+                        { x: new Date(2017, 0, 10), y: 853 },
+                        { x: new Date(2017, 0, 11), y: 869 },
+                        { x: new Date(2017, 0, 12), y: 943 },
+                        { x: new Date(2017, 0, 13), y: 970 },
+                        { x: new Date(2017, 0, 14), y: 869 },
+                        { x: new Date(2017, 0, 15), y: 890 },
+                        { x: new Date(2017, 0, 16), y: 930 }
+                    ]
+                },
+                {
+                    type: "line",
+                    showInLegend: true,
+                    name: "Unique Visit",
+                    lineDashType: "dash",
+                    dataPoints: [
+                        { x: new Date(2017, 0, 3), y: 510 },
+                        { x: new Date(2017, 0, 4), y: 560 },
+                        { x: new Date(2017, 0, 5), y: 540 },
+                        { x: new Date(2017, 0, 6), y: 558 },
+                        { x: new Date(2017, 0, 7), y: 544 },
+                        { x: new Date(2017, 0, 8), y: 693 },
+                        { x: new Date(2017, 0, 9), y: 657 },
+                        { x: new Date(2017, 0, 10), y: 663 },
+                        { x: new Date(2017, 0, 11), y: 639 },
+                        { x: new Date(2017, 0, 12), y: 673 },
+                        { x: new Date(2017, 0, 13), y: 660 },
+                        { x: new Date(2017, 0, 14), y: 562 },
+                        { x: new Date(2017, 0, 15), y: 643 },
+                        { x: new Date(2017, 0, 16), y: 570 }
+                    ]
+                }]
+            });
+            barChart.render();
+
+            function toogleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                } else {
+                    e.dataSeries.visible = true;
+                }
+                barChart.render();
+            }
+            // Line Chart
+            var lineChart = new CanvasJS.Chart("lineChart", {
+                animationEnabled: true,
+                exportEnabled: true,
+                theme: "light1", // "light1", "light2", "dark1", "dark2"
+                title: {
+                    text: "Simple Column Chart with Index Labels"
+                },
+                data: [{
+                    type: "column", //change type to bar, line, area, pie, etc
+                    //indexLabel: "{y}", //Shows y value on all Data Points
+                    indexLabelFontColor: "#5A5757",
+                    indexLabelPlacement: "outside",
+                    dataPoints: [
+                        { x: 10, y: 71 },
+                        { x: 20, y: 55 },
+                        { x: 30, y: 50 },
+                        { x: 40, y: 65 },
+                        { x: 50, y: 92, indexLabel: "Highest" },
+                        { x: 60, y: 68 },
+                        { x: 70, y: 38 },
+                        { x: 80, y: 71 },
+                        { x: 90, y: 54 },
+                        { x: 100, y: 60 },
+                        { x: 110, y: 36 },
+                        { x: 120, y: 49 },
+                        { x: 130, y: 21, indexLabel: "Lowest" }
+                    ]
+                }]
+            });
+            lineChart.render();
+
+            // Pie Chart
+            var pieChart = new CanvasJS.Chart("pieChart", {
+                animationEnabled: true,
+                title: {
+                    text: "Desktop Search Engine Market Share - 2016"
+                },
+                data: [{
+                    type: "pie",
+                    startAngle: 240,
+                    yValueFormatString: "##0.00\"%\"",
+                    indexLabel: "{label} {y}",
+                    dataPoints: [
+                        { y: 79.45, label: "Google" },
+                        { y: 7.31, label: "Bing" },
+                        { y: 7.06, label: "Baidu" },
+                        { y: 4.91, label: "Yahoo" },
+                        { y: 1.26, label: "Others" }
+                    ]
+                }]
+            });
+            pieChart.render();
+
+            // Dognunt Chart
+            var dognuntChart = new CanvasJS.Chart("dognuntChart", {
+                animationEnabled: true,
+                title: {
+                    text: "Email Categories",
+                    horizontalAlign: "left"
+                },
+                data: [{
+                    type: "doughnut",
+                    startAngle: 60,
+                    //innerRadius: 60,
+                    indexLabelFontSize: 17,
+                    indexLabel: "{label} - #percent%",
+                    toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                    dataPoints: [
+                        { y: 67, label: "Inbox" },
+                        { y: 28, label: "Archives" },
+                        { y: 10, label: "Labels" },
+                        { y: 7, label: "Drafts" },
+                        { y: 15, label: "Trash" },
+                        { y: 6, label: "Spam" }
+                    ]
+                }]
+            });
+            dognuntChart.render();
+
+            // Polar Area
+
+            var polarChart = new CanvasJS.Chart("polarChart", {
+                theme: "light2",
+                animationEnabled: true,
+                title: {
+                    text: "Shares of Electricity Generation by Fuel"
+                },
+                subtitles: [{
+                    text: "United Kingdom, 2016",
+                    fontSize: 16
+                }],
+                data: [{
+                    type: "pie",
+                    indexLabelFontSize: 18,
+                    radius: 80,
+                    indexLabel: "{label} - {y}",
+                    yValueFormatString: "###0.0\"%\"",
+                    click: explodePie,
+                    dataPoints: [
+                        { y: 42, label: "Gas" },
+                        { y: 21, label: "Nuclear" },
+                        { y: 24.5, label: "Renewable" },
+                        { y: 9, label: "Coal" },
+                        { y: 3.1, label: "Other Fuels" }
+                    ]
+                }]
+            });
+            polarChart.render();
+
+            function explodePie(e) {
+                for (var i = 0; i < e.dataSeries.dataPoints.length; i++) {
+                    if (i !== e.dataPointIndex)
+                        e.dataSeries.dataPoints[i].exploded = false;
+                }
+            }
+
+            // Radar Chart
+            var radarChart = new CanvasJS.Chart("radarChart", {
+                animationEnabled: true,
+                exportEnabled: true,
+                title: {
+                    text: "Temperature in Toronto - July 2017"
+                },
+                axisY: {
+                    includeZero: false,
+                    title: "Temperature (°C)",
+                    suffix: " °C"
+                },
+                axisX: {
+                    valueFormatString: "DD MMMM"
+                },
+                data: [
+                    {
+                        type: "rangeArea",
+                        xValueFormatString: "DD MMMM",
+                        yValueFormatString: "#0.## °C",
+                        toolTipContent: " <span style=\"color:#4F81BC\">{x}</span><br><b>Min:</b> {y[0]}<br><b>Max:</b> {y[1]}",
+                        dataPoints: [
+                            { x: new Date(2017, 06, 01), y: [15, 21] },
+                            { x: new Date(2017, 06, 02), y: [13, 27] },
+                            { x: new Date(2017, 06, 03), y: [14, 23] },
+                            { x: new Date(2017, 06, 04), y: [17, 25] },
+                            { x: new Date(2017, 06, 05), y: [16, 23] },
+                            { x: new Date(2017, 06, 06), y: [16, 29] },
+                            { x: new Date(2017, 06, 07), y: [18, 27] },
+                            { x: new Date(2017, 06, 08), y: [16, 25] },
+                            { x: new Date(2017, 06, 09), y: [15, 25] },
+                            { x: new Date(2017, 06, 10), y: [16, 23] },
+                            { x: new Date(2017, 06, 11), y: [15, 26] },
+                            { x: new Date(2017, 06, 12), y: [19, 23] },
+                            { x: new Date(2017, 06, 13), y: [16, 19] },
+                            { x: new Date(2017, 06, 14), y: [16, 27] },
+                            { x: new Date(2017, 06, 15), y: [18, 27] },
+                            { x: new Date(2017, 06, 16), y: [17, 24] },
+                            { x: new Date(2017, 06, 17), y: [19, 23] },
+                            { x: new Date(2017, 06, 18), y: [19, 26] },
+                            { x: new Date(2017, 06, 19), y: [20, 30] },
+                            { x: new Date(2017, 06, 20), y: [17, 21] },
+                            { x: new Date(2017, 06, 21), y: [19, 30] },
+                            { x: new Date(2017, 06, 22), y: [21, 23] },
+                            { x: new Date(2017, 06, 23), y: [20, 24] },
+                            { x: new Date(2017, 06, 24), y: [17, 22] },
+                            { x: new Date(2017, 06, 25), y: [17, 22] },
+                            { x: new Date(2017, 06, 26), y: [16, 22] },
+                            { x: new Date(2017, 06, 27), y: [19, 26] },
+                            { x: new Date(2017, 06, 28), y: [18, 23] },
+                            { x: new Date(2017, 06, 29), y: [18, 27] },
+                            { x: new Date(2017, 06, 30), y: [20, 31] },
+                            { x: new Date(2017, 06, 31), y: [19, 27] }
+                        ]
+                    }]
+            });
+            radarChart.render();
+
+
+        }
+    </script>
+    <!-- /Line Chart -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="js/main.js " defer="defer "></script>
+</body>
+
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="plugins/jqvmap-master/dist/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/nav-side.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="p-0" id="sideBar">
+        <!-- Side Bar Menu -->
+        <nav>
+            <!-- Logo Span -->
+            <span class="logo">
+                <span>Wg
+                    <span class="board">Board</span>
+                </span>
+            </span>
+            <!-- Search input -->
+            <section id="search">
+                <form action="">
+                    <div class="input-group mt-2 searchInput">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="input-group-btn searchButton">
+                            <!-- Search Button -->
+                            <button class="btn btn-default searchButton">
+                                <i class="fas fa-search searchIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <!-- Side Menu List -->
+
+            <ul class="mainList mt-1">
+                <!-- DashBoard -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-span">DashBoard</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="index.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Main Layout</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="online-shop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Online Shop</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="blog-dashboard.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Blog Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Ul elements -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">UI Elements</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="badges.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Badges</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="labels.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Labels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="list.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">List Groups</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pag.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Pagination</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="panel.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Panels</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="bar.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Progress Bars</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Components -->
+                <li class="list-items dropList">
+                    <i class="fas fa-home"></i>
+                    <span href="#" class="nav-span">Components</span>
+                    <i class="far fa-arrow-alt-circle-down downIcon"></i>
+                </li>
+                <li class="dropDown">
+                    <ul class="dropMenu">
+                        <li class="drop-items">
+                            <a href="alert.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Alerts</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="tooltip.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Tooltips</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="pop.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Popovers</span>
+                            </a>
+                        </li>
+                        <li class="drop-items">
+                            <a href="modal.html" class="drop-links">
+                                <span class="circle"></span>
+                                <span class="drop-spans">Modals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-square"></i>
+                    <a href="button.html">
+                        <span class="nav-span">Buttons</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-list-ul"></i>
+                    <a href="form.html">
+                        <span class="nav-span">Forms</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-table"></i>
+                    <a href="table.html">
+                        <span class="nav-span">Tables</span>
+                    </a>
+                </li>
+                <li class="list-items">
+                    <i class="fas fa-chart-bar"></i>
+                    <a href="chart.html">
+                        <span class="nav-span">Charts</span>
+                    </a>
+                    <span class="badge badge-danger badge-square">New</span>
+                </li>
+            </ul>
+
+            <!-- Text -->
+            <p class="sideText"></p>
+            <!-- Progress Bar -->
+
+            <section id="bar">
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Pending</p>
+                    <p class="percent">37%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="firstBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Approved</p>
+                    <p class="percent">60%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="secondBar"></div>
+                </div>
+                <div class="col-lg-12 progressInfo mb-2">
+                    <p class="m-0">Rejected</p>
+                    <p class="percent">3%</p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <div class="thirdBar"></div>
+                </div>
+            </section>
+        </nav>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Main Container -->
+    <main id="mainContainer" class="show">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Header -->
+                <header class="navTop show">
+                    <div class="row">
+                        <!-- Navigation Left -->
+                        <div class="col-md-6  col-sm-6 col-6 navLeft">
+                            <ul class="d-flex m-0">
+                                <li>
+                                    <div class="icon">
+                                        <span class="hamburger p-0"></span>
+                                    </div>
+                                </li>
+                                <li class="d-flex navLeft-items">
+                                    <i class="material-icons createIcons">
+                                        insert_drive_file
+                                    </i>
+                                    <span>Create</span>
+                                    <i class="material-icons createIcons createDown">
+                                        arrow_drop_down
+                                    </i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Publication
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Project
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Task Item
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navLeft-items">
+                                    <i class="material-icons">
+                                        cloud_queue
+                                    </i>
+                                    <span>File explorer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Right Nav -->
+                        <div class="col-md-6 col-sm-6 col-6  d-flex justify-content-end navRight">
+                            <ul class="d-flex m-0">
+                                <li class="navRight-items">
+                                    <i class="far fa-bell"></i>
+                                    <span class="badge badge-danger">3</span>
+                                </li>
+                                <li class="dropDown dropdownBell">
+                                    <ul>
+                                        <li>
+                                            <span>Nofictions</span>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction1.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Phillip Sandoval</b> liked your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction2.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Mary Riley</b> delegated post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction3.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Debra Burton</b> commented on your post</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="images/notifiction4.jpg" alt="">
+                                                </div>
+                                                <div class="col-9 p-0">
+                                                    <span>
+                                                        <b>Nathan Nelson</b> followed you</span>
+                                                    <span class="circle"></span>
+                                                    <p>2 minutes ago</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span>EN</span>
+                                    <i class="fas fa-caret-down"></i>
+                                </li>
+                                <li class="dropDown">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="navRight-items">
+                                    <span class="name">Mary Riley</span>
+                                    <i class="fas fa-caret-down"></i>
+                                    <img src="images/profile.jpg" alt="">
+                                </li>
+                                <li class="dropDown dropDownImg">
+                                    <ul>
+                                        <li class="drop-items">
+                                            <i class="far fa-user"></i>
+                                            <a href="#">
+                                                English
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-tasks"></i>
+                                            <a href="#">
+                                                Deutsch
+                                            </a>
+                                        </li>
+                                        <li class="drop-items">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                            <a href="#">
+                                                France
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <!-- / Header -->
+
+                <!-- PAGE CONTEXT -->
+                <div class="main col-12 p-0">
+                    <!-- Mini Nav -->
+                    <nav class="miniNav col-lg-12">
+                        <ul class="d-flex m-0">
+                            <li class="miniNav-items">
+                                <i class="fas fa-home"></i>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items">
+                                <a href="#">DASHBOARD</a>
+                            </li>
+                            <li class="miniNav-items">
+                                <i class="fas fa-angle-right"></i>
+                            </li>
+                            <li class="miniNav-items active">
+                                <a href="#">MAIN PAGE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /Mini Nav -->
+
+                    <!-- Page Title -->
+                    <section id="pageTitle">
+                        <div class="col-lg-12 pt-4">
+                            <p class="pageTitle">Welcome Back Mary!</p>
+                            <p class="pageText">Get started with the control panel right now</p>
+                        </div>
+                    </section>
+                    <!-- /Page Title -->
+                    <!-- Google Map -->
+                    <section class="col-lg-12 my-4">
+                        <div class="row mx-1" style="background-color:white;height: 400px;">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="col-12 pt-5 pb-2" id="country">
+                                    <span class="countryName">United States of America</span>
+                                </div>
+                                <div class="col-12">
+                                    <span class="countryPercent">
+                                        <i class="fas fa-arrow-up"></i>
+                                        32%
+                                    </span>
+                                    <span style="color:#888;font-size: 12px;">from last month</span>
+                                </div>
+                                <div class="col-12 my-5 py-5 paddingMap"></div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <span class="mapStatistics">Orders</span>
+                                            <span style="display:block;font-size:25px;color:#00bbd5!important">498</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="mapStatistics">Sales</span>
+                                            <span style="display:block;font-size:25px;color:#00bbd5!important">388</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="mapStatistics">Customers</span>
+                                            <span style="display:block;font-size:25px;color:#00bbd5!important">388</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center">
+                                <div id="vmap" style="height: 400px;"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recent Comments and Recent Sales -->
+
+                    <section id="recent" class="col-lg-12 my-3">
+                        <div class="row">
+                            <div class="col-lg-6 my-4">
+                                <div class="row mx-1" style="background-color:white;">
+                                    <div class="col-lg-12 heading py-2">
+                                        <p style="margin:0px;">Recent Comments</p>
+                                    </div>
+                                    <div class="col-lg-12 pt-5">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <img src="images/comment2.jpg" alt="">
+                                            </div>
+                                            <div class="col-11">
+                                                <div class="col-lg-12 heading">
+                                                    <p>Laura Cole</p>
+                                                    <span>2 days ago at 11:27 PM</span>
+                                                    <span class="badgeDesign" style="width: 80px;height: 25px;line-height: 25px;background: #7863a0;">Pending</span>
+                                                    <p style="font-weight: normal;" class="pt-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                        has roots in a piece of classical Latin literature from 45 BC, making
+                                                        it over 2000 years old. Richard McClintock.</p>
+                                                </div>
+                                                <div class="col-lg-12 py-3">
+                                                    <span class="button finish approve">
+                                                        <i class="fas fa-check"></i>Approve</span>
+                                                    <span class="button remove reject">
+                                                        <i class="far fa-trash-alt"></i>Reject</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row py-4">
+                                            <div class="col-1">
+                                                <img src="images/comment3.jpg" alt="">
+                                            </div>
+                                            <div class="col-11">
+                                                <div class="col-lg-12 heading">
+                                                    <p>Crystal Burton</p>
+                                                    <span>2 days ago at 11:27 PM</span>
+                                                    <span class="badgeDesign" style="width: 80px;height: 25px;line-height: 25px;background: #7863a0;">Pending</span>
+                                                    <p style="font-weight: normal;" class="pt-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                        has roots in a piece of classical Latin literature from 45 BC, making
+                                                        it over 2000 years old. Richard McClintock.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 my-4 salesDiv">
+                                <div class="row mx-1" style="background-color: white;">
+                                    <div class="heading col-lg-12 py-2">
+                                        <p>Recent Sales</p>
+                                    </div>
+                                    <div class="col-lg-12 salesTable">
+                                        <table class="table  table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Name</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Mcneil, Burke Q.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #7863a0;">Pending</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Burris, Lesley T.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #00bbd5;">Ready</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td> Oconnor, Jocelyn A</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #e31e62;">Returned</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Stewart, Anika M.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #7863a0;">Pending</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Santos, Nevada A.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #00bbd5;">Ready</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Riggs, Tatum P.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #13b42b;">Success</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Knight, Lucian D.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #00bbd5;">Ready</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td> Hoover, Igor R. Anika M.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #00bbd5;">Ready</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>Berger, Savannah L.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #00bbd5;">Ready</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>Berger, Savannah L.</td>
+                                                    <td>
+                                                        <span class="badgeDesign" style="width: 60px;height: 20px;line-height: 20px;background-color: #e31e62;">Returned</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="plugins/jqvmap-master/dist/jquery.vmap.js"></script>
+        <script src="plugins/jqvmap-master/dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+        <script src="js/main.js " defer="defer "></script>
+        <script>
+            $(document).ready(function () {
+                // GOOGLE MAP
+                $('#vmap').vectorMap(
+                    {
+                        map: 'world_en',
+                        backgroundColor: "#fff",
+                        borderColor: '#00bbd5',
+                        borderOpacity: 0.25,
+                        borderWidth: 1,
+                        color: '#00bbd5',
+                        enableZoom: true,
+                        hoverColor: null,
+                        hoverOpacity: null,
+                        normalizeFunction: 'linear',
+                        scaleColors: ['#b6d6ff', '#005ace'],
+                        selectedColor: '#c9dfaf',
+                        selectedRegions: null,
+                        showTooltip: true,
+                    });
+            });
+        </script>
+</body>
+
+</html>
