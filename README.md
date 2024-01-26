@@ -1,3 +1,2 @@
-# Admin dashboard template by alzaymr.dev
+# Admin dashboard template 
 
-this is a admin dashboard template with some pages
